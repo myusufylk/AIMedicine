@@ -1,97 +1,49 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# AIMedicine
+# 💊 AI Medicine - Akıllı İlaç Dağıtım Sistemi
 
-# Getting Started
+Bu proje, ilaçların ATM benzeri akıllı terminallerden alınmasını sağlayan bir mobil uygulamadır. Kullanıcılar harita üzerinden en yakın ATM'leri görebilir, ilaç arayabilir, stok durumuna göre rezervasyon yapabilir ve QR kod ile ilaçlarını teslim alabilir.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🚀 Özellikler
 
-## Step 1: Start Metro
+- 🔐 Kullanıcı Kaydı ve Girişi
+- 🗺️ Harita Üzerinde ATM Gösterimi (Google Maps API ile)
+- 💊 İlaç Arama ve Stok Bilgisi
+- 📦 İlaç Rezervasyonu
+- 📲 QR Kod ile İlaç Teslimatı
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 📦 Sprint Planı
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 🧱 Sprint 1: Temel Altyapı ve Harita
+- Kullanıcı kaydı ve giriş işlemleri
+- Google Maps API entegrasyonu
+- Dummy verilerle ATM veritabanı
+- Haritada ATM pinleri
+- ATM detay sayfası
 
-```sh
-# Using npm
-npm start
+✅ Teslimat: Kullanıcı giriş yapıp harita üzerinden ATM görebilir.
 
-# OR using Yarn
-yarn start
-```
+### 🔍 Sprint 2: İlaç Arama ve Stok Bilgisi
+- İlaç arama sistemi
+- ATM'lere ilaç stok bilgisinin eklenmesi
+- Stoklara göre filtreleme
 
-## Step 2: Build and run your app
+✅ Teslimat: Kullanıcı istediği ilacı bulup hangi ATM'de olduğunu görebilir.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 📲 Sprint 3: Rezervasyon ve QR Kod
+- İlaç rezervasyon sistemi
+- Rezervasyon onayı ve iptali
+- Kullanıcıya özel QR kod üretimi
+- QR ile ATM'den ilaç çekimi için temel API
 
-### Android
+✅ Teslimat: Kullanıcı ilaç ayırtır ve QR kod ile teslim alabilir.
 
-```sh
-# Using npm
-npm run android
+## 🔧 Kurulum
+Bu proje sadece bilgilendirme amaçlı paylaşılmıştır.
+Tüm hakları saklıdır. Kodların izinsiz kopyalanması, kullanılması veya değiştirilmesi yasaktır.
+Copyright (c) 2025 Mehmet Yusuf Yılıkoğlu
+All rights reserved.
 
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Geliştirici
+Mehmet Yusuf Yılıkoğlu
+📧 yusufylkoglu@gmail.com
+🎓 Fırat Üniversitesi - Yazılım Mühendisliği
