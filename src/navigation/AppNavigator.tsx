@@ -7,6 +7,7 @@ import RegisterScreen from '../screens/RegisterScreen';
 import HomeScreen from '../screens/HomeScreen';
 import MapScreen from '../screens/MapScreen';
 import AtmDetailScreen from '../screens/AtmDetailScreen';
+import QRCodeScreen from '../screens/QRCodeScreen';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -27,6 +28,8 @@ const AppNavigator = () => (
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Register" component={RegisterScreen} />
       <Stack.Screen name="Home" component={MainTabs} />
+      <Stack.Screen name="AtmDetail" component={AtmDetailScreen} />
+      <Stack.Screen name="QRCode" component={QRCodeScreen} />
     </Stack.Navigator>
   </NavigationContainer>
 );

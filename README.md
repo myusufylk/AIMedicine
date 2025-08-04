@@ -1,4 +1,4 @@
-# AIMedicine
+# AIMedicine projesi yapay zeka ile oluşturulmuştur.
 # 💊 AI Medicine - Akıllı İlaç Dağıtım Sistemi
 
 Bu proje, ilaçların ATM benzeri akıllı terminallerden alınmasını sağlayan bir mobil uygulamadır. Kullanıcılar harita üzerinden en yakın ATM'leri görebilir, ilaç arayabilir, stok durumuna göre rezervasyon yapabilir ve QR kod ile ilaçlarını teslim alabilir.
